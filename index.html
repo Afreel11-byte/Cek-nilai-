@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Nilai Siswa</title>
+    <link rel="stylesheet" href="dua.css">
+</head>
+<body>
+    <div class="kotak">
+        <h2>Cek Nilai Siswa</h2>
+
+        <label>Nama Siswa</label>
+        <input type="text" id="nama" placeholder="Masukkan nama">
+
+        <label>Nilai Angka</label>
+        <input type="number" id="nilai" placeholder="0 - 100" min="0" max="100">
+
+        <button onclick="cekNilai()">Lihat Hasil</button>
+
+        <div class="hasil" id="hasil">
+            <p>Nama: <span id="hNama"></span></p>
+            <p>Nilai: <span id="hNilai"></span></p>
+            <p>Grade: <span id="hGrade"></span></p>
+            <p>Status: <span id="hStatus"></span></p>
+        </div>
+    </div>
+    <script src="tiga.js"></script>
+</body>
+</html>
